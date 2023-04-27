@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
-.animation {
-	height: 90px;
-	width: 90px;
+.box {
+	height: 100px;
+	width: 100;
 	background-color:red;
 	transform: scale(1);
 	animation: pulse 1s ease-in-out infinite;
