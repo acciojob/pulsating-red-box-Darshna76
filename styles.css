@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.animation {
+	height: 90px;
+	width: 90px;
+	background-color:red;
+	transform: scale(1);
+	animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		
+	}
+
+	70% {
+		transform: scale(1);
+		
+	}
+
+	100% {
+		transform: scale(0.95);
+	
+	}
+}
+}
